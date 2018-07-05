@@ -3,7 +3,7 @@ from django.template.loader import get_template
 from django import VERSION as DJANGO_VERSION
 
 
-if DJANGO_VERSION >= (1, 10, 0):
+if DJANGO_VERSION >= (1, 8, 0):
     context_class = dict
 else:
     # Django<1.10 compatibility
